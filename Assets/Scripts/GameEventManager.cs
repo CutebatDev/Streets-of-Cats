@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EventManager : MonoBehaviour
+public class GameEventManager : MonoBehaviour
 {
     public LogbookManager logbook; // Display the options to the logbook
 

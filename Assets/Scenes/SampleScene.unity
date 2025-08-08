@@ -206,6 +206,55 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &74978520
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 74978522}
+  - component: {fileID: 74978521}
+  m_Layer: 0
+  m_Name: CatsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &74978521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74978520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b717ebc6126c4754b91563651392f976, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CatsInspector:
+  - {fileID: 932921888}
+  - {fileID: 1041869754}
+  - {fileID: 2145047868}
+  - {fileID: 1508051250}
+--- !u!4 &74978522
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74978520}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.55553836, y: -0.5537304, z: -9.929304}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &151854626
 GameObject:
   m_ObjectHideFlags: 0
@@ -1327,7 +1376,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 000000003fb060e3
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -1944,8 +1993,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 932921887}
+  - component: {fileID: 932921888}
   m_Layer: 0
-  m_Name: Character_1
+  m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1967,6 +2017,23 @@ Transform:
   - {fileID: 908584321}
   m_Father: {fileID: 593691623}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &932921888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932921886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4617da5132f611848886a9f9fd11181a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 0
+  hunger: 0
+  thirst: 0
+  isSick: 0
+  isGone: 0
 --- !u!1 &994384278
 GameObject:
   m_ObjectHideFlags: 0
@@ -2237,8 +2304,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1041869753}
+  - component: {fileID: 1041869754}
   m_Layer: 0
-  m_Name: Character_2
+  m_Name: Snowflake
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2260,6 +2328,23 @@ Transform:
   - {fileID: 345682715}
   m_Father: {fileID: 593691623}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1041869754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041869752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4617da5132f611848886a9f9fd11181a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 1
+  hunger: 0
+  thirst: 0
+  isSick: 0
+  isGone: 0
 --- !u!1 &1073046933
 GameObject:
   m_ObjectHideFlags: 0
@@ -3387,8 +3472,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1508051249}
+  - component: {fileID: 1508051250}
   m_Layer: 0
-  m_Name: Character_3 (1)
+  m_Name: GarfieldJR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3410,6 +3496,23 @@ Transform:
   - {fileID: 2086828326}
   m_Father: {fileID: 593691623}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1508051250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508051248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4617da5132f611848886a9f9fd11181a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 3
+  hunger: 0
+  thirst: 0
+  isSick: 0
+  isGone: 0
 --- !u!1 &1582571692
 GameObject:
   m_ObjectHideFlags: 0
@@ -4624,8 +4727,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2145047867}
+  - component: {fileID: 2145047868}
   m_Layer: 0
-  m_Name: Character_3
+  m_Name: Garfield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4647,6 +4751,23 @@ Transform:
   - {fileID: 1666754799}
   m_Father: {fileID: 593691623}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2145047868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145047866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4617da5132f611848886a9f9fd11181a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: 2
+  hunger: 0
+  thirst: 0
+  isSick: 0
+  isGone: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -4657,3 +4778,4 @@ SceneRoots:
   - {fileID: 239369202}
   - {fileID: 1233835204}
   - {fileID: 1211912994}
+  - {fileID: 74978522}

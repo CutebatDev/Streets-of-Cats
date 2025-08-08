@@ -10,15 +10,16 @@ public class CatsManager : MonoBehaviour
         Garfield,
         GarfieldJr
     }
-    public List<CatScript> CatsInspector;
+    public List<CatScript> CatsInspector = new List<CatScript>();
     public Dictionary<Cat, CatScript> Cats;
 
     void Start()
     {
-        foreach (CatScript cat in CatsInspector)
-        {
-            Cats.Add(cat.name, cat);
-        }
+        if(CatsInspector.Count != 0)
+            foreach (CatScript cat in CatsInspector)
+            {
+                Cats.Add(cat.name, cat);
+            }
     }
     
 
