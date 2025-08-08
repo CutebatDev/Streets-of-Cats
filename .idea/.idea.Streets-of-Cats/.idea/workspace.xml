@@ -10,6 +10,8 @@
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Sprites/Cat/Cat.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Cat/Cat.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    <list default="true" id="c42c03df-741f-47bd-8f26-a9a708e8d30f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +29,10 @@
   "associatedIndex": 3
 }]]></component>
   <component name="ProjectId" id="30zdrOXNBNr4OnFXpsj0l1bxgrA" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="30vdkQubHLauzqmH6Rcis7R00p2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,6 +55,26 @@
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.54f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;D:\Unity Projects\Streets of Cats\Streets-of-Cats\Streets-of-Cats&quot; -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\Unity Projects\Streets of Cats\Streets-of-Cats\Streets-of-Cats" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;logbook&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.54f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;C:\Users\Serra\Documents\Seraphim\Unity\Streets of Cats\Streets-of-Cats&quot; -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Serra\Documents\Seraphim\Unity\Streets of Cats\Streets-of-Cats" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
@@ -60,6 +86,8 @@
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.54f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;D:\Unity Projects\Streets of Cats\Streets-of-Cats\Streets-of-Cats&quot; -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\Unity Projects\Streets of Cats\Streets-of-Cats\Streets-of-Cats" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\Serra\Documents\Seraphim\Unity\Streets of Cats\Streets-of-Cats&quot; -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Serra\Documents\Seraphim\Unity\Streets of Cats\Streets-of-Cats" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
@@ -104,6 +132,14 @@
       <option name="presentableId" value="Default" />
       <updated>1754634533949</updated>
       <workItem from="1754634535192" duration="4188000" />
+      <changelist id="c42c03df-741f-47bd-8f26-a9a708e8d30f" name="Changes" comment="" />
+      <created>1747581826321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747581826321</updated>
+      <workItem from="1747581827404" duration="832000" />
+      <workItem from="1754512123829" duration="2266000" />
+      <workItem from="1754594058612" duration="5836000" />
     </task>
     <servers />
   </component>
